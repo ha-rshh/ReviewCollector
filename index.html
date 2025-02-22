@@ -16,14 +16,105 @@
   <body>
     <div class="container">
       <div class="form-box">
-        <h1>Review Collector</h1>
-        <form>
-          <input type="text" name="review" id="review-input" />
-          <button type="submit">Submit</button>
-        </form>
-        :hello
+        <h1 class="heading">Create Review</h1>
+        <div class="review-container">
+          <form class="review-form">
+            Your Name
+            <br />
+            <input type="text" placeholder="Full Name" />
+            <br />
+            Add a headline
+            <br />
+            <input type="text" placeholder="What's most important to know?" />
+            <br />
+            Add a review
+            <br />
+            <textarea
+              name="text"
+              id="review"
+              placeholder="What did you like or dislike?"
+            ></textarea>
+            <br />
+            Overall Rating
+            <hr class="hr-break" />
+            <div class="rating-container">
+              <div class="rating-star">
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="button-box">
+                <button class="submit-btn">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
       </div>
-      <div class="review-list"></div>
+      <div class="review-list">
+        <div class="review-list-container">
+          <ul class="review-ul">
+            <li>
+              <span class="user-name"> Chris W Dukes </span>
+              <span class="user-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+
+              <div class="user-title">
+                I like the product it's super Awesome!!!!!!!
+              </div>
+              <div class="user-review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                impedit veritatis rem unde obcaecati fuga! Ipsa explicabo
+                officiis doloribus velit?
+              </div>
+            </li>
+            <li>
+              <span class="user-name"> Chris W Dukes </span>
+              <span class="user-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+
+              <div class="user-title">
+                I like the product it's super Awesome!!!!!!!
+              </div>
+              <div class="user-review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                impedit veritatis rem unde obcaecati fuga! Ipsa explicabo
+                officiis doloribus velit?
+              </div>
+            </li>
+            <li>
+              <span class="user-name"> Chris W Dukes </span>
+              <span class="user-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </span>
+
+              <div class="user-title">
+                I like the product it's super Awesome!!!!!!!
+              </div>
+              <div class="user-review">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
+                impedit veritatis rem unde obcaecati fuga! Ipsa explicabo
+                officiis doloribus velit?
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>

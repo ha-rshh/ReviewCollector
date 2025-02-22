@@ -4,16 +4,71 @@
   box-sizing: border-box;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  list-style: none;
 }
 .container {
   display: flex;
-  background-color: black;
+  background-color: burlywood;
   height: 100vh;
   width: 100vw;
+  min-width: fit-content;
 }
-.form-box{
-    width: 50%;
-    background-color: aliceblue;
+.heading {
+  padding: 1em;
+}
+.form-box {
+  padding-left: 2em;
+  width: 50vw;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.review-container {
+  margin: 1em 2em;
 }
 
+.review-form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.review-input {
+  height: 6em;
+}
+input,
+textarea {
+  padding: 3px 0;
+  padding-inline: 5px;
+}
+.hr-break {
+  margin: 5px 0;
+}
+.rating-container {
+  display: flex;
+  justify-content: space-between;
+}
+.rating-star {
+  font-size: 1.5em;
+}
+.submit-btn {
+  margin: 3px 0;
+  padding: 3px;
+}
+.review-list {
+  width: 50vw;
+  background-color: cadetblue;
+}
 
+.review-list-container {
+  display: flex;
+  flex-direction: column;
+}
+.review-ul{
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+
+}

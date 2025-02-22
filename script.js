@@ -1,0 +1,1 @@
+// Polyfill for indexOF
