@@ -18,14 +18,19 @@
       <div class="form-box">
         <h1 class="heading">Create Review</h1>
         <div class="review-container">
-          <form class="review-form">
+          <div class="review-form" action="#">
             Your Name
             <br />
-            <input type="text" placeholder="Full Name" />
+            <input type="text" placeholder="Full Name" id="name" required />
             <br />
             Add a headline
             <br />
-            <input type="text" placeholder="What's most important to know?" />
+            <input
+              type="text"
+              id="title"
+              placeholder="What's most important to know?"
+              required
+            />
             <br />
             Add a review
             <br />
@@ -33,6 +38,7 @@
               name="text"
               id="review"
               placeholder="What did you like or dislike?"
+              required
             ></textarea>
             <br />
             Overall Rating
@@ -46,62 +52,28 @@
                 <i class="fa-regular fa-star"></i>
               </div>
               <div class="button-box">
-                <button class="submit-btn">Submit</button>
+                <button class="submit-btn" id="submit">Submit</button>
               </div>
             </div>
-          </form>
+          </div>
         </div>
       </div>
       <div class="review-list">
         <div class="review-list-container">
-          <ul class="review-ul">
-            <li>
-              <span class="user-name"> Chris W Dukes </span>
-              <span class="user-rating">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </span>
-
-              <div class="user-title">
-                I like the product it's super Awesome!!!!!!!
+          <ul class="review-ul" id="reviews-list">
+            <li class="review-box">
+              <div class="user-details">
+                <span class="user-name"> Chris W Dukes </span>
+                <span class="user-rating">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+                  <i class="fa-regular fa-star"></i>
+            
+                </span>
+                <span>23/02/2015</span>
               </div>
-              <div class="user-review">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                impedit veritatis rem unde obcaecati fuga! Ipsa explicabo
-                officiis doloribus velit?
-              </div>
-            </li>
-            <li>
-              <span class="user-name"> Chris W Dukes </span>
-              <span class="user-rating">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </span>
-
-              <div class="user-title">
-                I like the product it's super Awesome!!!!!!!
-              </div>
-              <div class="user-review">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-                impedit veritatis rem unde obcaecati fuga! Ipsa explicabo
-                officiis doloribus velit?
-              </div>
-            </li>
-            <li>
-              <span class="user-name"> Chris W Dukes </span>
-              <span class="user-rating">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-              </span>
 
               <div class="user-title">
                 I like the product it's super Awesome!!!!!!!
