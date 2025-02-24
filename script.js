@@ -1,4 +1,4 @@
-// Polyfill for indexOF
+Polyfill for indexOF
 //
 
 const userName = document.getElementById("name");
@@ -31,3 +31,4 @@ submitBtn.addEventListener("click", (e) => {
   }
   
 });
+
